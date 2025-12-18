@@ -1,7 +1,7 @@
 # Image Captioning on Flickr8k
 
 This repository contains a comparative study of three image captioning models evaluated on the **Flickr8k** dataset.
-The goal of this project is to examine how different architectural choices—from CNN-based encoder–decoder models to pretrained vision–language models—affect caption quality under limited computational resources.
+The project investigates how different architectural choices—from CNN-based encoder–decoder models to pretrained vision–language models—affect caption quality under limited computational resources.
 
 Each model is implemented in an independent Jupyter notebook and can be executed separately.
 
@@ -24,9 +24,15 @@ Each notebook is self-contained and corresponds to one model variant used in the
 
 ## Model Overview
 
-The figure below illustrates the architectures of the evaluated image captioning models, including CNN-based baselines and the pretrained BLIP-2 model with LoRA-based adaptation.
+The figures below illustrate the architectures of the evaluated image captioning models, including CNN-based baselines and the pretrained BLIP-2 model with LoRA-based parameter-efficient fine-tuning.
 
-![Architectural comparison of image captioning models](figures/model_a_b.png)
+**CNN-based and Transformer-based captioning architectures**
+
+![CNN-based and Transformer-based image captioning models](figures/model_a_b.png)
+
+**BLIP-2 architecture with LoRA-based adaptation**
+
+![BLIP-2 with LoRA architecture](figures/blip2_lora.png)
 
 ---
 
